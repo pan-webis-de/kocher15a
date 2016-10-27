@@ -13,6 +13,13 @@ for example:
 
     python panAV.py -i "data/dutch essays/" -o "output/DE/"
 
+Evaluate:
+
+    python -c "from evaluator import evalAV; evalAV(truth_file, answer_file)"
+
+for example:
+
+    python -c "from evaluator import evalAV; evalAV('data/dutch essays/truth.txt', 'output/DE/answers.txt')"
 
 ## Requirements
 
